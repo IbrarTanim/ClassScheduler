@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rokan.classScheduler"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="Class Scheduler" >
+        <activity
+            android:label="Class Scheduler"
+            android:name="com.rokan.classScheduler.ListBatchesActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:label="Add Batch"   android:name="com.rokan.classScheduler.AddBatchActivity" />
+        <activity android:label="List Classes"   android:name="com.rokan.classScheduler.ListClassesActivity" />
+        <activity android:label="Add Class"   android:name="com.rokan.classScheduler.AddClassActivity" />
+        <activity android:label="Update Batch"   android:name="com.rokan.classScheduler.UpdateBatchActivity" />
+        <activity android:label="Update Class"   android:name="com.rokan.classScheduler.UpdateClassActivity" />
+    </application>
+
+</manifest>
